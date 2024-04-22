@@ -34,13 +34,14 @@
     display: flex;
     padding: 24px;
     gap: 16px;
-    justify-content: space-between;
+    justify-content: center;
 }
 .texth{
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 16px;
     align-items: flex-start;
     color: #585445;
 }
@@ -66,13 +67,14 @@
     height: 300px;
     align-items: center;
     justify-content: space-evenly;
-    padding: 24px;
+    padding: 20%;
     color: #585445;
 }
 .cardsBox{
     display: flex;
     width: 100%;
     justify-content: space-between;
+    margin-top: 16px;
     gap: 3%;
 }
 .card{
@@ -101,7 +103,7 @@ margin-top: 8px;
     height: 10%;
     width: 100%;
     background-color: #585445;
-    padding: 15%;
+    padding: 10% 25%;
     color: beige;
     font-style: italic;
 }
@@ -145,4 +147,7 @@ height: 70%
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+body{
+    background-color: #f4f1e6;
 }
