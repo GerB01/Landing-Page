@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Hero */
+/* Header */
+.logoh{
+    width: 100px;
+}
+.header{
+    display: flex;
+    height: 100px;
+    background-color: #868069;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+}
+
+.linkh{
+    display: flex;
+    gap: 20px;
+}
+.linkh a{
+    text-decoration: none;
+    color: white;
+}
+/* ---Hero Content---*/
+.imageh{
+    width: 100%;
+}
+.main{
+    background-color: #e6dcb3;
+    color: black;
+    display: flex;
+    padding: 24px;
+    gap: 16px;
+    justify-content: space-between;
+}
+.texth{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.desh{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.signup{
+    width: 40%;
+    margin-top: 36px;
+    border: none;
+    background-color: white;
+    padding: 6px 12px;
+}
